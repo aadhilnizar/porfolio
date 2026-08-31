@@ -9,6 +9,7 @@ import {
   interests,
 } from "./data";
 import { Header, Reveal, Icon, FeaturedMedia } from "./components";
+import { asset } from "./asset";
 
 export default function Home() {
   const year = 2026;
@@ -48,7 +49,7 @@ export default function Home() {
                 </a>
                 <a
                   className="btn ghost"
-                  href={profile.resumeFile}
+                  href={asset(profile.resumeFile)}
                   download
                 >
                   Download résumé <Icon name="download" />

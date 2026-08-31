@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { profile } from "./data";
+import { asset } from "./asset";
 
 /* ---------- Icons ---------- */
 export function Icon({ name }: { name: string }) {
@@ -181,7 +182,7 @@ export function FeaturedMedia({
         <div className="frame-screen">
           {video ? (
             <video
-              src={video}
+              src={asset(video)}
               autoPlay
               muted
               loop
@@ -192,7 +193,7 @@ export function FeaturedMedia({
             // eslint-disable-next-line @next/next/no-img-element
             <img
               key={current.src}
-              src={current.src}
+              src={asset(current.src)}
               alt={`Loyaltri — ${current.label}`}
               className="frame-media"
               onError={() => setBroken(true)}
@@ -222,7 +223,7 @@ export function FeaturedMedia({
               aria-label={`Show ${g.label}`}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={g.src} alt="" />
+              <img src={asset(g.src)} alt="" />
               <span>{g.label}</span>
             </button>
           ))}
