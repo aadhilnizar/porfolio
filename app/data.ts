@@ -2,7 +2,7 @@ export const profile = {
   name: "Aadhil N J",
   firstName: "Aadhil",
   monogram: "AN",
-  role: "Full-Stack JavaScript Developer",
+  role: "Full-Stack Software Developer",
   location: "Kollam, India",
   email: "aadhilnj7@gmail.com",
   phone: "+91 7994634815",
@@ -13,7 +13,7 @@ export const profile = {
   tagline:
     "I build and modernize enterprise web applications — from legacy migrations to clean, responsive interfaces, end to end.",
   summary:
-    "Full-stack JavaScript developer with production experience building and modernizing enterprise web applications, including an HRMS platform used by HR teams and thousands of employees. I migrate legacy codebases into modern, RESTful architectures and ship clean, responsive interfaces from design to deployment — with a strong foundation across both relational and NoSQL databases.",
+    "Full-stack Software developer with production experience building and modernizing enterprise web applications, including an HRMS platform used by HR teams and thousands of employees. I migrate legacy codebases into modern, RESTful architectures and ship clean, responsive interfaces from design to deployment — with a strong foundation across both relational and NoSQL databases.",
 };
 
 export const stats = [
